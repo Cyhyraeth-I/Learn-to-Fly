@@ -15,7 +15,7 @@
     "tools": [ "book_pilot_heli" ]
   },
   {
-    "id": "prac_mechanics_basic_pilot",
+    "id": "prac_mechanics_basic_repair",
     "type": "practice",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_PRACTICE",
