@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "learn_to_fly",
+    "name": "Learn to Fly",
+    "authors": [ "Cyhyraeth" ],
+    "description": "Added books & recipes so you have a way to gain the profs for flying and repairing helicopters.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]
