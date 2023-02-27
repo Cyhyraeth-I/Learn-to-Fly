@@ -1,0 +1,32 @@
+[
+  {
+    "id": "prac_mechanics_basic_pilot",
+    "type": "practice",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_MECHANICS",
+    "name": "basic operating - Helicopters",
+    "description": "Get a feel for operating the controls of a rotor based vehicle.",
+    "skill_used": "mechanics",
+    "practice_data": { "min_difficulty": 6, "max_difficulty": 6, "skill_limit": 7 },
+    "proficiencies": [ { "proficiency": "prof_helicopter_pilot", "fail_multiplier": 1, "time_multiplier": 1.4 } ],
+    "time": "1 h",
+    "book_learn": [ [ "book_pilot_heli", 6 ] ],
+    "tools": [ "book_pilot_heli" ]
+  },
+  {
+    "id": "prac_mechanics_basic_pilot",
+    "type": "practice",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_MECHANICS",
+    "name": "Aircraft maintenence - basic",
+    "description": "Study the basics of what it takes to fly and maintain aerodynamic form to better understand how to repair aircraft.",
+    "skill_used": "mechanics",
+    "practice_data": { "min_difficulty": 6, "max_difficulty": 6, "skill_limit": 7 },
+    "proficiencies": [ { "proficiency": "prof_aircraft_mechanic", "fail_multiplier": 1, "time_multiplier": 1.4 } ],
+    "time": "1 h",
+    "book_learn": [ [ "book_repair_aircraft", 6 ] ],
+    "tools": [ "book_repair_aircraft" ]
+  }
+]
