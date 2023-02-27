@@ -4,8 +4,8 @@
     "id": "lab_bookshelves",
 	"subtype": "distribution",
 	"entries": [
-		{ "item": "book_pilot_heli", "prob": 20 },
-		{ "item": "book_repair_aircraft", "prob": 20 }
+		{ "item": "book_pilot_heli", "prob": 5 },
+		{ "item": "book_repair_aircraft", "prob": 5 }
 	]
   },
   {
@@ -13,8 +13,8 @@
     "id": "book_military",
 	"subtype": "distribution",
 	"entries": [
-		{ "item": "book_pilot_heli", "prob": 20 },
-		{ "item": "book_repair_aircraft", "prob": 20 }
+		{ "item": "book_pilot_heli", "prob": 4 },
+		{ "item": "book_repair_aircraft", "prob": 6 }
 	]
   },
   {
@@ -22,8 +22,8 @@
     "id": "hardware_books",
 	"subtype": "distribution",
 	"entries": [
-		{ "item": "book_pilot_heli", "prob": 10 },
-		{ "item": "book_repair_aircraft", "prob": 10 }
+		{ "item": "book_pilot_heli", "prob": 3 },
+		{ "item": "book_repair_aircraft", "prob": 3 }
 	]
   }
 ]
