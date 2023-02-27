@@ -1,0 +1,29 @@
+[
+  {
+    "type": "item_group",
+    "id": "lab_bookshelves",
+	"subtype": "distribution",
+	"entries": [
+		{ "item": "book_pilot_heli", "prob": 20 },
+		{ "item": "book_repair_aircraft", "prob": 20 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "book_military",
+	"subtype": "distribution",
+	"entries": [
+		{ "item": "book_pilot_heli", "prob": 20 },
+		{ "item": "book_repair_aircraft", "prob": 20 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "hardware_books",
+	"subtype": "distribution",
+	"entries": [
+		{ "item": "book_pilot_heli", "prob": 10 },
+		{ "item": "book_repair_aircraft", "prob": 10 }
+	]
+  }
+]
