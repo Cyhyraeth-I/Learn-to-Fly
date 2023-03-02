@@ -1,29 +1,24 @@
 [
-  {
-    "type": "item_group",
-    "id": "lab_bookshelves",
-	"subtype": "distribution",
-	"entries": [
-		{ "item": "book_pilot_heli", "prob": 3 },
-		{ "item": "book_repair_aircraft", "prob": 2 }
-	]
-  },
-  {
-    "type": "item_group",
-    "id": "book_military",
-	"subtype": "distribution",
-	"entries": [
-		{ "item": "book_pilot_heli", "prob": 2 },
-		{ "item": "book_repair_aircraft", "prob": 3 }
-	]
-  },
-  {
-    "type": "item_group",
-    "id": "hardware_books",
-	"subtype": "distribution",
-	"entries": [
-		{ "item": "book_pilot_heli", "prob": 1 },
-		{ "item": "book_repair_aircraft", "prob": 1 }
-	]
-  }
-]
+	{
+	  "type": "item_group",
+	  "id": "lab_bookshelves",
+	  "copy-from": "lab_bookshelves",
+	  "subtype": "distribution",
+	  "extend": { "entries": [ { "item": "book_pilot_heli", "prob": 3 }, { "item": "book_repair_aircraft", "prob": 2 } ] }
+	},
+	{
+	  "type": "item_group",
+	  "id": "book_military",
+	  "copy-from": "book_military",
+	  "subtype": "distribution",
+	  "extend": { "entries": [ { "item": "book_pilot_heli", "prob": 2 }, { "item": "book_repair_aircraft", "prob": 3 } ] }
+	},
+	{
+	  "type": "item_group",
+	  "id": "hardware_books",
+	  "copy-from": "hardware_books",
+	  "subtype": "distribution",
+	  "extend": { "entries": [ { "item": "book_pilot_heli", "prob": 1 }, { "item": "book_repair_aircraft", "prob": 1 } ] }
+	}
+  ]
+  
